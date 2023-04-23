@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #004980;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-content: center;
+  overflow: scroll;
+}
+
+.difficulty {
+  display: flex;
+  flex-direction: column;
+  background-color: #c2f5ff;
+  border-radius: 6px;
+  height: 250px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.difficulty_box {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.difficulty_button {
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  background-color: rgb(82 224 91);
+  border: none;
+  transition: 0.3s;
+  font-family: Roboto, sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.difficulty_button:hover {
+  background-color: rgb(29 193 40);
+  transform: scale(1.03);
+}
+
+.restart_button {
+  width: 150px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: rgb(82 224 91);
+  border: none;
+  transition: 0.3s;
+  font-family: Roboto, sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.restart_button:hover {
+  background-color: rgb(29 193 40);
+  transform: scale(1.03);
+}
+
+.difficulty_select {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(233 241 186);
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.difficulty_select:hover {
+  background-color: rgb(218 238 105);
+  transform: scale(1.03);
+}
+
+.difficulty_select-title {
+  font-size: medium;
+}
+
+.game__top-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 40px;
+}
+
+.game__top-box_timer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  color: #fff;
+}
+
+.game__card {
+  transition: 0.3s;
+}
+.game__card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.game__card_hidden {
+  display: none;
+}
+.game__card-cover_hidden {
+  display: none;
+}
+
+.game__card-cover {
+  width: 95px;
+  height: 133px;
+  background-image: url(../static/0_cover.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.game__card-cover:hover {
+  transform: scale(1.03);
+}
