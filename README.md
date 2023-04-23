@@ -1,7 +1,7 @@
 Карточная игра. 
 
 Правила: Три уровня сложности, нужно угадать все пары карт на время.
-Стек: HTML, SCSS, TS, WebPack, Husky
+Стек: HTML, TS, WebPack, Husky
 
 Команды:
 * npm install
